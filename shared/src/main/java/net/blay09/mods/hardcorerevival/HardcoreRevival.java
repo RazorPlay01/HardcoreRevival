@@ -37,6 +37,7 @@ public class HardcoreRevival {
         RescueHandler.initialize();
 
         Balm.initializeIfLoaded(Compat.MR_CRAYFISHS_GUN_MOD, "net.blay09.mods.hardcorerevival.compat.MrCrayfishsGunModAddon");
+        Balm.initializeIfLoaded(Compat.TIMELESS_CLASSICS_GUNS_MOD, "net.blay09.mods.hardcorerevival.compat.TimelessClassicsGunsModAddon");
     }
 
     public static HardcoreRevivalManager getManager() {
